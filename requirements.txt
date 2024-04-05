@@ -1,0 +1,6 @@
+numpy
+pandas
+timm
+torch
+Pillow
+huggingface-hub

@@ -3,7 +3,6 @@ import pandas as pd
 import timm
 import os, glob, sys
 import torch
-from huggingface_hub import hf_hub_download
 from timm.data import create_transform, resolve_data_config
 from torch import Tensor, nn
 from torch.nn import functional as F
