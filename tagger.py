@@ -190,6 +190,10 @@ def as_txt_extension(filename):
 
 def get_file_paths(directory):
     file_paths = {}
+
+    if not os.path.isdir(directory):
+        from download_model import download_model_data
+        download_model_data(directory)
     
     for extension in ["*.json", "*.csv", "*.safetensors"]:
         files = glob.glob(os.path.join(directory, extension))
