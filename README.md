@@ -1,9 +1,6 @@
 ## Install:
 `pip install -r requirements.txt`
 
-Run
-`python download_model.py`
-
 ## Use:
 `python tagger.py <dataset_directory>`
 
